@@ -2,7 +2,7 @@ import os
 API_ID = int(os.environ.get("API_ID",29109422 ))
 API_HASH = os.environ.get("API_HASH", None) 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
-OPENAI_KEY = os.environ.get("sk-proj-gQIV34ntzlfyZQg2Zn5IT3BlbkFJpTTSVGMnbEYYjssPUaCc")
+openai.api_key = os.environ.get("sk-proj-gQIV34ntzlfyZQg2Zn5IT3BlbkFJpTTSVGMnbEYYjssPUaCc")
 BOT_USERNAME = os.environ.get("BOT_USERNAME" ,None) 
 SUDO=os.environ.get("SUDO","7080052423")
 BOT_NAME = os.environ.get("naxx",None)
