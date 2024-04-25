@@ -78,12 +78,12 @@ PNG_BTN = [
     [
          InlineKeyboardButton(
              text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
-             url=f"https://t.me/{nakshchatgpt_bot}?startgroup=true",
+             url=f"https://t.me/nakshchatgpt_bot?startgroup=true",
          ),
      ],
      [
          InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", 
-                              url=f"https://t.me/{radhe_shyam_ji}",
+                              url=f"https://t.me/radhe_shyam_ji",
          ),
      ],
 ]
@@ -100,13 +100,13 @@ HELP_BACK = [
 
   
 #         start
-@DAXX.on_message(filters.command(["start",f"start@{BOT_USERNAME}"]))
+@DAXX.on_message(filters.command(["start",f"start@nakshchatgpt_bot"]))
 async def start(client, m: Message):
     try:
         accha = await m.reply_text(
                         text = f"{g}")
         await asyncio.sleep(0.2)
-        await accha.edit("ᴘɪɴɢ ᴘᴏɴɢ ꜱᴛᴀʀᴛɪɴɢ..")
+        await accha.edit("𝐅𝐔𝐂𝐊𝐄𝐑 𝐍𝐀𝐊𝐒𝐇 ꜱᴛᴀʀᴛɪɴɢ..")
         await asyncio.sleep(0.2)
         await accha.delete()
         umm = await m.reply_sticker(
@@ -158,7 +158,7 @@ async def ping(client, message: Message):
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
                              photo=START_IMG,
-                             caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/{nakshchatgpt_bot}) ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [Mrdaxx](https://t.me/Iam_daxx)||",
+                             caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/nakshchatgpt_bot) ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [Mrnaxx](https://t.me/Iam_daxx)||",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
