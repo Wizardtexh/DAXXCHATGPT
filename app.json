@@ -19,7 +19,7 @@
     }
   ],
   "env": {
-    "BOT_TOKEN": { "description": "𝗕𝗢𝗧 𝗧𝗢𝗞𝗘𝗡 𝗗𝗔𝗟 𝗡𝗔𝗔 𝗝𝗛𝗔𝗔𝗧𝗛𝗨",
+    "BOT_TOKEN": { "description": "7133714014:AAEyDU_CBLOimdqZrqB8jPJtO7JMP-seYCo",
       "required": true
     },
     "OWNER_USERNAME": {
