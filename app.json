@@ -27,19 +27,19 @@
       "required": true
     },
     "OPENAI_KEY": {
-      "description": "𝗢𝗣𝗘𝗡 𝗔𝗜 𝗔𝗣𝗜 𝗞𝗘𝗬 ",
+      "description": "sk-proj-5sth09V29dKtvtDqt33DT3BlbkFJQFqwBUlTAmCymtYJs6un ",
       "required": true
     },
     "BOT_USERNAME": {
-      "description": "𝗕𝗢𝗧 𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘 𝗗𝗔𝗟 𝗗𝗘 𝗪𝗜𝗧𝗛𝗢𝗨𝗧 @",
+      "description": "t.me/nakshchatgpt_bot",
       "required": true
     },
     "BOT_NAME": {
-      "description": "𝗕𝗢𝗧 𝗡𝗔𝗠𝗘 𝗧𝗢 𝗗𝗔𝗟 𝗗𝗘 𝗕𝗛𝗔𝗜 𝗣𝗛𝗟𝗘.",
+      "description": "naxx.",
       "required": true
     },
     "SUPPORT_GRP": {
-      "description": "𝗚𝗥𝗢𝗨𝗣 𝗡𝗔𝗠𝗘 𝗪𝗜𝗧𝗛𝗢𝗨𝗧 @",
+      "description"   "t.me/PAPANAKSH",
       "required": true
     },
     "STKR": {
@@ -61,5 +61,5 @@
       "required": true
     }
   },
-  "repository": "https://github.com/DAXXTEAM/DAXXCHATGPT"
+  
 }
