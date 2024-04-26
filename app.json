@@ -26,8 +26,8 @@
       "description": "t.me/btwnaksh",
       "required": true
     },
-    "OPENAI_KEY": {
-      "description": "sk-proj-5sth09V29dKtvtDqt33DT3BlbkFJQFqwBUlTAmCymtYJs6un ",
+    "OPENAI_API_KEY": {
+      "description": "sk-proj-kXHvvW8eES71Y5dJiQQLT3BlbkFJh9YyslKLk5GMbZcBfAhb ",
       "required": true
     },
     "BOT_USERNAME": {
